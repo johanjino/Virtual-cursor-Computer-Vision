@@ -1,5 +1,3 @@
-# TechVidvan hand Gesture Recognizer
-
 # import necessary packages
 
 import cv2
