@@ -48,7 +48,10 @@ while True:
     
     else:
         landmarks = [None for i in range(21)]
-        
+    
+    
+    #relative error calculation to predict right click of mouse
+    
     if landmarks[0]!=None:
         rel_err_x = ((abs(landmarks[4][0]-landmarks[8][0]))/landmarks[4][0])*100
         rel_err_y = ((abs(landmarks[4][1]-landmarks[8][1]))/landmarks[4][1])*100
